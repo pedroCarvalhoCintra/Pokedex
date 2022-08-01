@@ -18,7 +18,6 @@
             font-weight: normal;
             font-style: normal;
         }
-
         .left > h1{
             font-family: 'Pokemon';
             font-size: 2em;
@@ -45,28 +44,34 @@
             <div class="pokedex">
                 <div class="search">
                     <h1>Pokedex</h1>
-                    <img src="images/pokedex.png" width="60" height="60">
-                    
+                    <img src="images/pokedex.png" class="left-image" width="60" height="60">
                 </div> 
-
-                <form class="form">
-                    <input
-                      type="search"
-                      class="input_pokemon"
-                      placeholder="Pokemon"
-                      required
-                    />
-                </form>
-
+                
+                <div class="search2">
+                    <form class="form">
+                        <input
+                          type="search"
+                          class="input_pokemon"
+                          placeholder="Name or ID"
+                          required
+                        />
+                    </form>    
+                </div>
+                
+                
                 <div class="show"> 
-                    <img src="#" alt="pokemon" class="pokemon_image" width="120" height="120">
+                    <img src="#" alt="pokemon" class="pokemon_image" width="80%" height="45%">
                     <h1>
-                        <span class="pokemon_number">1</span>
-                        <span class="pokemon_name">name</span>
+                        <span class="pokemon_number"></span>
+                        <span class="pokemon_name"></span>
                     </h1>
-                    <h2>
-                        <span class="pokemon_type">types: </span>
-                    </h2>
+                    
+                    <div class="features">
+                        <p>
+                            <span class="pokemon_type"></span>
+                        </p>
+                    </div>
+                    
 
                 </div>  
             </div>
